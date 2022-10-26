@@ -1,0 +1,27 @@
+.App{
+  width: 80%;
+  margin: auto;
+}
+
+.App-header {
+  text-align: center;
+}
+
+.container{
+  display: inline-block;
+  width: 150px;
+  padding: 5px 10px;
+}
+
+.Player .container{
+  background: #69ffcd;
+}
+
+.Game p{
+  font-size: 16px;
+}
+
+
+.StreetMarket .container{
+  background: #efff62;
+}
