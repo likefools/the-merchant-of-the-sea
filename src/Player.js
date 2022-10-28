@@ -1,16 +1,21 @@
-const Game = (props) => {
-  const { playerName, money, items } = props.player;
+import { useState } from "react";
 
+const Player = (props) => {
+  const { player, count } = props;
+
+  // Adds money subtracts money
   return (
     <div className="Player">
-      <div className="container">
-        <p>player name: {playerName}</p>
-        <p>money: {money}</p>
-        <p>fish: {items.fish}</p>
-        <p>meat: {items.meat}</p>
-      </div>
+      {player.map((user) => (
+        <div key={user.id} className="container">
+          <p>player name: {user.playerName}</p>
+          <p>money: {user.money}</p>
+          <p>fish: {user.items.fish + count}</p>
+          <p>meat: {user.items.meat + count}</p>
+        </div>
+      ))}
     </div>
   );
 };
 
-export default Game;
+export default Player;

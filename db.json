@@ -1,0 +1,23 @@
+{
+  "player": [
+    {
+      "id": 1,
+      "playerName": "yoru",
+      "money": 500,
+      "items": 
+      {
+        "fish": 0,
+        "meat": 0 
+      }
+    }
+  ],
+  "location":[
+    { "locationName": "Jerusalem",
+      "items": 
+      {
+        "fish": 50,
+        "meat": 100 
+      }
+  }
+  ]
+}
