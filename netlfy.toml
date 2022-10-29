@@ -2,3 +2,10 @@
 [build]
 
   publish = "build"
+
+
+[dev]
+
+  port = 5000
+  command = "npm run server"
+  publish = "src"
