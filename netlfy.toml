@@ -7,5 +7,5 @@
 [dev]
 
   port = 5000
-  command = "server"
+  command = "run server"
   publish = "src"
