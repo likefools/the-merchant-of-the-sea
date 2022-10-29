@@ -7,5 +7,5 @@
 [dev]
 
   port = 5000
-  command = "npm run server"
+  command = "server"
   publish = "src"
