@@ -3,9 +3,3 @@
 
   publish = "build"
 
-
-[dev]
-
-  port = 5000
-  command = "run server"
-  publish = "src"

@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h2>סוחר הים</h2>
       </header>
-
+      
       <Game />
     </div>
   );
